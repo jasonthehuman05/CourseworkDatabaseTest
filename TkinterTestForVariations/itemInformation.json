@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "itemName": "Premium Screws",
+      "itemVariations": {
+        "variationName": "size",
+        "variationTypes": [
+          {
+            "variationName": "15mm",
+            "variationCost": 15.50,
+            "stockLevel": 5
+          },
+          {
+            "variationName": "17mm",
+            "variationCost": 16.50,
+            "stockLevel": 8
+          }
+        ]
+      }
+    },
+    {
+      "itemName": "Boring Screws",
+      "itemVariations": {
+        "variationName": "Length",
+        "variationTypes": [
+          {
+            "variationName": "10mm",
+            "variationCost": 1.50,
+            "stockLevel": 135
+          },
+          {
+            "variationName": "12mm",
+            "variationCost": 1.75,
+            "stockLevel": 178
+          }
+        ]
+      }
+    }
+  ]
+}
