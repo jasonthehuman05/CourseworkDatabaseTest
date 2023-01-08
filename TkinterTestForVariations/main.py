@@ -39,7 +39,7 @@ class ItemWindow():
         self.LoadJson()
     
     def LoadJson(self):
-        f = open("itemInformation.json", "r").read()
+        f = open("TkinterTestForVariations/itemInformation.json", "r").read()
 
         data = json.loads(f)
         item = data['items'][0]
