@@ -7,11 +7,14 @@ class Database():
     tagsTable = dict()
 
     def LoadDatabase(self):
+        self.database = dict()
         f = open("stock.json", "r").read()
         self.database = json.loads(f)
-        self.BuildIndex()
+        self.BuildIndexes()
 
-    def BuildIndex(self):
+    def BuildIndexes(self):
+        self.pNameTable = dict()
+        self.tagsTable = dict()
         #Iterate through each item
         for itemIndex in range(0, len(self.database["items"])):
             
