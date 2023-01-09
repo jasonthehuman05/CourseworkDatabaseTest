@@ -20,6 +20,7 @@ def CreateItem():
                 "variationName": vName,
                 "variationCost": vCost
             }
+            variations.append(variation)
 
     newItem = {
             "productNumber": prodNum,
