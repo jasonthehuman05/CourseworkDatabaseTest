@@ -1,76 +1,76 @@
 {
     "items": [
-      {
-        "productNumber": "000001",
-        "productName": "Wood Screws",
-        "tags": [
-          "wood",
-          "screws",
-          "construction",
-          "timber",
-          "phillips",
-          "home"
-        ],
-        "variations": [
-          {
-            "variantID": "1",
-            "variationName": "34mm",
-            "variationCost": 5.45
-          },
-          {
-            "variantID": "2",
-            "variationName": "45mm",
-            "variationCost": 6.45
-          }
-        ]
-      },
-      {
-        "productNumber": "000002",
-        "productName": "Masonry Screws",
-        "tags": [
-          "brick",
-          "masonry",
-          "construction",
-          "building",
-          "concrete",
-          "screws",
-          "home"
-        ],
-        "variations": [
-          {
-            "variantID": "1",
-            "variationName": "34mm",
-            "variationCost": 5.45
-          },
-          {
-            "variantID": "2",
-            "variationName": "45mm",
-            "variationCost": 7.45
-          }
-        ]
-      },
-      {
-        "productNumber": "000003",
-        "productName": "Compost",
-        "tags": [
-          "garden",
-          "plants",
-          "outdoor",
-          "growing",
-          "home"
-        ],
-        "variations": [
-          {
-            "variantID": "1",
-            "variationName": "10L",
-            "variationCost": 22.80
-          },
-          {
-            "variantID": "2",
-            "variationName": "25L",
-            "variationCost": 47.50
-          }
-        ]
-      }
+        {
+            "productNumber": "000001",
+            "productName": "Wood Screws",
+            "tags": [
+                "wood",
+                "screws",
+                "construction",
+                "timber",
+                "phillips",
+                "home"
+            ],
+            "variations": [
+                {
+                    "variantID": "1",
+                    "variationName": "34mm",
+                    "variationCost": 5.45
+                },
+                {
+                    "variantID": "2",
+                    "variationName": "45mm",
+                    "variationCost": 6.45
+                }
+            ]
+        },
+        {
+            "productNumber": "000002",
+            "productName": "Masonry Screws",
+            "tags": [
+                "brick",
+                "masonry",
+                "construction",
+                "building",
+                "concrete",
+                "screws",
+                "home"
+            ],
+            "variations": [
+                {
+                    "variantID": "1",
+                    "variationName": "34mm",
+                    "variationCost": 5.45
+                },
+                {
+                    "variantID": "2",
+                    "variationName": "45mm",
+                    "variationCost": 7.45
+                }
+            ]
+        },
+        {
+            "productNumber": "000003",
+            "productName": "Compost",
+            "tags": [
+                "garden",
+                "plants",
+                "outdoor",
+                "growing",
+                "home"
+            ],
+            "variations": [
+                {
+                    "variantID": "1",
+                    "variationName": "10L",
+                    "variationCost": 22.8
+                },
+                {
+                    "variantID": "2",
+                    "variationName": "25L",
+                    "variationCost": 47.5
+                }
+            ]
+        }
     ]
-  }
+}

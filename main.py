@@ -1,10 +1,12 @@
 import tkinter
 import json
 import dbase
+import ItemCreator
 
 db = dbase.Database()
 db.LoadDatabase() 
 
-variation = db.GetVariation(input("Enter product number\n>>> "))
-
-print(variation["variationName"])
+nItem = ItemCreator.CreateItem()
+db.AddToDatabase(nItem)
+print(db.database["items"][3]["productName"])
+db.WriteDatabase()

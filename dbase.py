@@ -11,6 +11,18 @@ class Database():
         self.database = json.loads(f)
         self.BuildIndexes()
 
+    def WriteDatabase(self):
+        file = open("stock.json", 'w')
+        database_json = json.dumps(self.database)
+        file.write(database_json)
+        file.close()
+
+    def AddToDatabase(self, item, index = -1):
+        if index == -1:
+            self.database["items"].append(item)
+        else:
+            self.database["items"][index] = item
+
     def BuildIndexes(self):
         self.pNameTable = dict()
         self.tagsTable = dict()
